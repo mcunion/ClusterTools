@@ -1,0 +1,13 @@
+name: ClusterTools
+main: ru.mcterra.cluster.ClusterTools
+version: ${project.version}
+authors:
+  - mikeangel
+website: 
+description: >
+  Multiserver tools for Minecraft.
+softdepend: [Vault, PermissionsEx, Dynmap]
+commands:
+  ct:
+    description: Main command. See /ct help for more.
+    usage: /<command> command [<option> ...]
